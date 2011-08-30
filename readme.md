@@ -1,6 +1,6 @@
 ### jquery.boilerplate.js
 
-A boilerplate to build jQuery plugins from
+A boilerplate & sandbox to build & practice jQuery plugins
 
 #### further reading
 
