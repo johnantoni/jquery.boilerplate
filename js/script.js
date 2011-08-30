@@ -10,17 +10,17 @@ $(function() {
 
 
 	// try out the callback example
-	$("p:first-child").sb_basic([], fadeAble("p:first-child"));
+	$("#main p:first-child").sb_basic([], fadeAble("#main p:first-child"));
 
 	
 	// try out the chained example
-	$("p:nth-child(2n)").sb_chain()
+	$("#main p:nth-child(2n)").sb_chain()
 		.fadeOut()
 		.fadeIn();
 
 
 	// try out the namespaced example
-	$("p:last-child").sb_namespace()
+	$("#main p:last-child").sb_namespace()
 		.sb_namespace('colorize');
 
 
