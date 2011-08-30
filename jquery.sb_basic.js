@@ -1,6 +1,6 @@
-// jquery.boilerplate
+// jquery.sb_basic
 //
-// a simple boilerplate for writing jQuery plugins
+// a basic boilerplate for writing jQuery plugins
 //
 // requires:
 //  [fill me in]
@@ -13,15 +13,13 @@
 
 (function( $ ){
 
-  $.fn.boilerplate = function(params, callback) {
-    var el = this; // get element
+  $.fn.sb_basic = function(params, callback) {
+    var el = $(this); // get element
 
     // set default params, merging with ones given
-    var params = $.extend({ default: null }, params);  
+    var params = $.extend({ color: "green" }, params);  
 
-    // ...
-    // ...
-    // ...
+    el.attr("style", "color:"+params.color);
     
     // allow the plugin to support callbacks
     if (typeof callback == 'function') {
