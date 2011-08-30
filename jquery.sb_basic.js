@@ -17,7 +17,7 @@
     var el = $(this); // get element
 
     // set default params, merging with ones given
-    var params = $.extend({ color: "green" }, params);  
+    params = $.extend({ color: "green" }, params);  
 
     el.attr("style", "color:"+params.color);
     

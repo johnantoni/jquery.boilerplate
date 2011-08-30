@@ -43,7 +43,7 @@
 				// remove data
 				$this.removeData('sb_namespace');
 				
-			})
+			});
 		},
 
 		// change element color
@@ -57,7 +57,7 @@
 				// do the work
 				$this.attr("style", "color:"+data.color);
 				
-			})
+			});
 		}
 
 	};
